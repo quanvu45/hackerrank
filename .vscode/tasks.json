@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "c:\\Program Files (x86)\\Embarcadero\\Dev-Cpp\\TDM-GCC-64\\bin\\g++.exe",
+            "command": "c:\\Program Files (x86)\\MinGW\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -12,7 +12,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "c:\\Program Files (x86)\\Embarcadero\\Dev-Cpp\\TDM-GCC-64\\bin"
+                "cwd": "c:\\Program Files (x86)\\MinGW\\bin"
             },
             "problemMatcher": [
                 "$gcc"
