@@ -1,4 +1,4 @@
-nt getTotalX(vector<int> a, vector<int> b) {
+int getTotalX(vector<int> a, vector<int> b) {
     int lcma=1,gcdb=0,count=0,t=0;
     for(int i=0;i<(int)a.size();i++){
         lcma=lcm(lcma,a[i]);
